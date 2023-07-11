@@ -1,0 +1,90 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userEmail": "postman17@gmail.com",
+    "userPassword": "Deesh@@#17"
+}
+HTTP/1.1 200 OK
+Date: Tue, 11 Jul 2023 16:49:57 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 358
+ETag: W/"166-4HfX8/FvSNgowEI7FP59LfMYdnA"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDg3MGQ3MzU2OGMzZTlmYjE4NTAxZDUiLCJ1c2VyRW1haWwiOiJwb3N0bWFuMTdAZ21haWwuY29tIiwidXNlck1vYmlsZSI6OTkwMDc3MjI0NSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY4OTA5NDE5NywiZXhwIjoxNzIwNjUxNzk3fQ.EKO8Qe_Mg4kVtl6gZpCozXeiQgrgmFX3udpNDhzLnrA",
+    "userId": "64870d73568c3e9fb18501d5",
+    "message": "Login Successfully"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/add-product
+Proxy:			<none>
+Request params:	productName=Shoes
+				productAddedBy=64870d73568c3e9fb18501d5
+				productCategory=Sports Shoes
+				productSubCategory=Nike Shoes
+				productPrice=3695
+				productDescription= Air Jordan 35 
+				productFor=Mens
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDg3MGQ3MzU2OGMzZTlmYjE4NTAxZDUiLCJ1c2VyRW1haWwiOiJwb3N0bWFuMTdAZ21haWwuY29tIiwidXNlck1vYmlsZSI6OTkwMDc3MjI0NSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY4OTA5NDE5NywiZXhwIjoxNzIwNjUxNzk3fQ.EKO8Qe_Mg4kVtl6gZpCozXeiQgrgmFX3udpNDhzLnrA
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = productImage; filename = shoes1.png
+				Content-Type: application/octet-stream
+
+				D:\Eclipse_Workspace\RestAssuredDemoProject\src\main\resources\shoes1.png
+Body:			<none>
+HTTP/1.1 201 Created
+Date: Tue, 11 Jul 2023 16:49:59 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 79
+ETag: W/"4f-xGcGjP/peH4Z8YBhEFY5Lre0M90"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "productId": "64ad88377244490f957c3347",
+    "message": "Product Added Successfully"
+}
